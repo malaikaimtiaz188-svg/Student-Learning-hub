@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Hub</title>
+
+    <style>
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #164879;
+            color: white;
+            border: none;
+            margin: 0;
+        }
+
+        .logo {
+            margin: 0;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            background-color: lightblue;
+
+            background-image:
+                linear-gradient(
+                    to right,
+                    rgba(176, 220, 232, 1) 0%,
+                    rgba(176, 220, 232, 0.9) 40%,
+                    rgba(176, 220, 232, 0.1) 100%
+                ),
+                url("booktea.jpg");
+
+            background-size: 100% 100%, auto 100%;
+            background-position: center, right top;
+            background-repeat: no-repeat;
+
+            padding: 20px;
+            margin: 1;
+            min-height: 100px;
+            
+        }
+
+        .t {
+            color: darkblue;
+            margin: 0;
+            line-height: 1;
+            
+        }
+
+        .s {
+            color: blue;
+            line-height: 1;
+            
+            margin: 0;
+        }
+
+        .b1 {
+            line-height: 1;
+            margin: 1px;
+            color: white;
+            padding: 2px;
+            background-color: darkblue;
+            border-radius: 5px;
+        }
+        .hero2{
+            
+            color: #164879;
+            margin : 0;
+            padding : 0;
+            border-radius: 0;
+            line-height: 1;
+        }
+        .hero3 {
+            margin: 0;
+            padding : 0;
+            line-height: 1.2;
+            width : 100;
+            color : rgb(22, 22, 104)
+          
+            
+
+            
+        }
+        table {
+    width: 100%;
+    border: 1;
+    table-layout: fixed;
+}
+        th, td {
+    padding 20px;
+}
+
+.tp {
+    border: 2px solid #164879;
+    color : lightblue;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+.middle {
+    display: flex;              /* puts the two boxes side by side */
+    gap: 40px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.hero2 {
+    flex: 1;                    
+}
+
+.video-box {
+    flex: 1;
+    color: #164879;
+    border-left: 1px solid #b0dce8;   
+    padding-left: 40px;
+}
+
+.video-box video {
+    width: 100%;
+    max-width: 300px;        
+    aspect-ratio: 4 / 3;     
+    object-fit: cover;      
+    background-color: black;
+    border-radius: 10px;
+    display: block;
+}
+
+    </style>
+</head>
+
+<body>
+    
+    
+    <section class="tp">
+
+    
+
+    <header class="navbar">
+        <h2 class="logo">🎓 Student Learning Hub</h2>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Courses</a>
+            <a href="#">Contacts</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <h1 class="t">
+            Learn Today
+            <br>
+            Build Your Future
+        </h1>
+
+        <p class="s">
+            We provide online courses, career guidance
+            <br>
+            and support to help you grow
+            <br>
+        </p>
+     <button class="b1">Explore Courses</button>
+    </section>
+<section class="middle">
+
+    <div class="hero2">
+        <h2>Our Features</h3>
+        <h3>Online Courses</h3>
+        <h3>Student Support</h3>
+        <h3>Career Guidance</h3>
+        <h3>Modern Environment</h3>
+    </div>
+    
+    <div class="video-box">
+        <h2>Watch Our Video</h2>
+        <video controls>
+            <source src="ss.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</section>
+<section class="hero3">
+    <h2>Student Information</h2>
+    <table border="2">
+        <tr bgcolor="lightblue"> 
+            <th>
+                ID
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Department
+            </th>
+            <th>
+                Semester
+            </th>
+        </tr>
+        <tr>
+            <td>
+                101
+            </td>
+            <td>
+                Ali Raza
+            </td>
+            <td>
+                CS
+            </td>
+            <td>
+                4
+            </td>
+        </tr>
+        <tr>
+            <td>
+                102
+            </td>
+            <td>
+                Ayesha Khan
+            </td>
+            <td>
+                SE
+            </td>
+            <td>
+                4
+            </td>
+        </tr>
+        <tr>
+            <td>
+                103
+            </td>
+            <td>
+                Hassan Shah
+            </td>
+            <td>
+                IT
+            </td>
+            <td>
+                3
+            </td>
+        </tr>
+        
+        
+
+    </table>
+</section>
+</section>
+</div>
+</body>
+</html>
